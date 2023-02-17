@@ -1,17 +1,15 @@
 import React, { useEffect, useContext } from 'react';
 import NavbarComponet from '../components/NavbarComponent';
-import CarruselComponent from '../components/CarruselComponet';
 import Img from '../components/Img';
-
+import Footer from '../components/Footer';
 
 
 function Home (){
     return(
 <>
-
 <NavbarComponet/>
-<CarruselComponent/>
 <Img/>
+<Footer/>
 
 </>
 

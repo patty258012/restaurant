@@ -4,9 +4,14 @@ import Home from './page/Home';
 
 function App () {
    return(
-<>
-<Home/>
-</>
+
+<BrowserRouter>
+<Routes>
+   <Route path="/" element={<Home/>} />
+</Routes>
+</BrowserRouter>
+
+
    );
 
 }
