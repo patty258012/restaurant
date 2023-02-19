@@ -1,17 +1,9 @@
 export const getState = ({ setStore, getStore, getActions }) => {
- return{
- store:{
+    return (
 
- },
+    <>
+    </>
 
- action:{
-
- }
-
-
-
-
-
-};
-
+        
+    );
 }

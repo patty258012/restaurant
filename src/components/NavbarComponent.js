@@ -24,11 +24,21 @@ function NavbarComponet() {
         <div>
           <Nav className="me-auto">
             <Link to='/'>
-              <Nav.Link href="#inicio"className="" role="navigation">Inicio</Nav.Link>
+              <Nav.Link href="#inicio" className="" role="navigation">Inicio</Nav.Link>
             </Link>
-            <Nav.Link href="#carta">Nuetra Carta</Nav.Link>
-            <Nav.Link href="#información">Información</Nav.Link>
-            <Nav.Link href="#contacto"> Contacto</Nav.Link>
+
+            <Link to='/carta'>
+              <Nav.Link href="#carta">Nuestra Carta</Nav.Link>
+            </Link>
+
+            <Link to='/informacion'>
+              <Nav.Link href="#información">Información</Nav.Link>
+            </Link>
+
+            <Link to='/contacto' >
+              <Nav.Link href="#contacto"> Contacto</Nav.Link>
+            </Link>
+
           </Nav>
         </div>
       </Container>
