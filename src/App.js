@@ -5,6 +5,7 @@ import Home from './page/Home';
 import Carta from './components/Carta';
 import Informacion from "./components/Informacion";
 import Contacto from "./components/Contacto";
+import Aperitivos from "./components/Aperitivos";
 
 function App() {
    return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/carta" element={<Carta />} />
             <Route path="/informacion" element={<Informacion />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/aperitivo" element={<Aperitivos/>} />
 
 
          </Routes>

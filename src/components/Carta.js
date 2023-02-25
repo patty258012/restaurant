@@ -1,5 +1,6 @@
 import NavbarComponet from './NavbarComponent';
 import Footer from './Footer';
+import { Link } from "react-router-dom";
 
 
 function Carta() {
@@ -26,16 +27,27 @@ function Carta() {
                 >
                 </img>
 
-                <li style={{ position: 'absolute', top: '75%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Aperitivos</li>
-                <li style={{ position: 'absolute', top: '83%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white',}} >Para Compartir</li>
-                <li style={{ position: 'absolute', top: '91%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Cortes de Parrilla</li>
-                <li style={{ position: 'absolute', top: '99%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Entradas  </li>
-                <li style={{ position: 'absolute', top: '107%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Acompañamientos</li>
-                <li style={{ position: 'absolute', top: '115%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Ensaladas</li>
-                <li style={{ position: 'absolute', top: '123%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Vegetariano </li>
-                <li style={{ position: 'absolute', top: '131%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Menu Kids</li>
-                <li style={{ position: 'absolute', top: '139%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Vinos </li>
+
+
+               
+
+                <Link  to='/aperitivo' variant="link"  style={{ position: 'absolute', top: '75%', width: '10%', textAlign: 'center', fontSize: '25px', color: 'white',height:'10%'}}>Aperitivos</Link>
+
+              <Link> </Link>
+
                 
+                
+                
+                
+                {/* <p style={{ position: 'absolute', top: '83%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white', }} >Para Compartir</p>
+                <p style={{ position: 'absolute', top: '91%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Cortes de Parrilla</p>
+                <p style={{ position: 'absolute', top: '99%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Entradas  </p>
+                <p style={{ position: 'absolute', top: '107%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Acompañamientos</p>
+                <p style={{ position: 'absolute', top: '115%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Ensaladas</p>
+                <p style={{ position: 'absolute', top: '123%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Vegetariano </p>
+                <p style={{ position: 'absolute', top: '131%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Menu Kids</p>
+                <p style={{ position: 'absolute', top: '139%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Vinos </p> */}
+
 
             </div>
 
