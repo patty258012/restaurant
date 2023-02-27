@@ -29,24 +29,19 @@ function Carta() {
 
 
 
-               
 
-                <Link  to='/aperitivo' variant="link"  style={{ position: 'absolute', top: '75%', width: '10%', textAlign: 'center', fontSize: '25px', color: 'white',height:'10%'}}>Aperitivos</Link>
 
-              <Link> </Link>
+                <Link to='/aperitivo' variant="link" style={{ position: 'absolute', top: '75%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Aperitivos</Link>
+                <Link to='/paracompartir' variant="link" style={{ position: 'absolute', top: '82%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}> Para compartir </Link>
+                <Link to='/parrillas' variant="link" style={{ position: 'absolute', top: '89%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}> Parrillas</Link>
+                <Link to='/entradas' variant="link" style={{ position: 'absolute', top: '96%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Entradas</Link>
+                <Link to='/acompañamiento' variant="link" style={{ position: 'absolute', top: '103%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Acompañamientos</Link>
+                <Link to='/ensaladas' variant="link" style={{ position: 'absolute', top: '110%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Ensaladas</Link>
+                <Link to='/vegetaiano' variant="link" style={{ position: 'absolute', top: '117%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Vegetariano</Link>
+                <Link to='/menukids' variant="link" style={{ position: 'absolute', top: '124%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Menu Kids</Link>
+                <Link to='/vinos' variant="link" style={{ position: 'absolute', top: '131%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Vinos</Link>
 
                 
-                
-                
-                
-                {/* <p style={{ position: 'absolute', top: '83%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white', }} >Para Compartir</p>
-                <p style={{ position: 'absolute', top: '91%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Cortes de Parrilla</p>
-                <p style={{ position: 'absolute', top: '99%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Entradas  </p>
-                <p style={{ position: 'absolute', top: '107%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Acompañamientos</p>
-                <p style={{ position: 'absolute', top: '115%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Ensaladas</p>
-                <p style={{ position: 'absolute', top: '123%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Vegetariano </p>
-                <p style={{ position: 'absolute', top: '131%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Menu Kids</p>
-                <p style={{ position: 'absolute', top: '139%', width: '100%', textAlign: 'center', fontSize: '25px', color: 'white' }}>Vinos </p> */}
 
 
             </div>
