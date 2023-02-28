@@ -14,7 +14,7 @@ function Carta() {
                 <h1 style={{ fontSize: '60px', display: 'flex', justifyContent: 'center', fontFamily: 'cursive', }}>Nuestra Carta</h1>
 
             </div>
-            <hr />
+           
             <div className='' style={{ margin: '10px', display: 'flex', justifyContent: 'center' }}>
                 <img
                     alt=""
@@ -26,10 +26,6 @@ function Carta() {
 
                 >
                 </img>
-
-
-
-
 
                 <Link to='/aperitivo' variant="link" style={{ position: 'absolute', top: '75%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Aperitivos</Link>
                 <Link to='/paracompartir' variant="link" style={{ position: 'absolute', top: '82%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>  compartir </Link>
