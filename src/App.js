@@ -7,6 +7,9 @@ import Informacion from "./components/Informacion";
 import Contacto from "./components/Contacto";
 import Aperitivos from "./components/Aperitivos";
 import Compartir from "./components/Compartir";
+import Parrillas from "./components/Parrilas";
+
+
 
 function App() {
    return (
@@ -17,8 +20,10 @@ function App() {
             <Route path="/carta" element={<Carta />} />
             <Route path="/informacion" element={<Informacion />} />
             <Route path="/contacto" element={<Contacto />} />
-            <Route path="/aperitivo" element={<Aperitivos/>} />
-            <Route path="paracompartir" element={< Compartir/>} />
+            <Route path="/aperitivo" element={<Aperitivos />} />
+            <Route path="paracompartir" element={< Compartir />} />
+            <Route path="/parrillas" element={<Parrillas />} />
+
 
          </Routes>
       </BrowserRouter>

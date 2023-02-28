@@ -25,7 +25,7 @@ function Compartir() {
                 
                 >
                 </img>
-                    <h4 style={{ display: 'flex', justifyContent: 'center', top: '22%',  fontSize: '19px', color: 'white', margin: '20px' }}>Ceviche Mixto Estilo Limeño_______________ $10.980</h4>
+                    <h4 style={{ display: 'flex', justifyContent: 'center', top: '15%',  fontSize: '19px', color: 'white', margin: '20px' }}>Ceviche Mixto Estilo Limeño_______________ $10.980</h4>
                     <h4 style={{ display: 'flex', justifyContent: 'center' ,top: '26%',  fontSize: '19px', color: 'white', margin: '20px' }}>Camarones al Pil-Pi __________________ $8.980</h4>
                     <p style={{ display: 'flex', justifyContent: 'center', top: '28%', fontSize: '16px', color: 'white', margin: '13px' }}>Pil-Pil || Provenzal || Salteados</p>
                     <h4 style={{ display: 'flex', justifyContent: 'center', top: '34%', fontSize: '19px', color: 'white', margin: '20px' }}>Empanada de Queso Frita __________________$5.380 </h4>
