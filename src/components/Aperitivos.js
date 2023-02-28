@@ -30,7 +30,7 @@ function Aperitivos() {
                     </img>
 
                     <h4 style={{ position: 'absolute', top: '30%', textAlign: 'center', fontSize: '25px', color: 'white', margin: '30px' }} >Bebida lata Variedades ___________________ $2500. </h4>
-                    <h4 style={{ position: 'absolute', top: '40%', textAlign: 'center', fontSize: '25px', color: 'white', margin: '30px' }} > Cerveza Kunstmann Torobayo_______________ $4.180.</h4>
+                    <h4 style={{ position: 'absolute', top: '40%', textAlign: 'center', fontSize: '25px', color: 'white', margin: '25px' }} > Cerveza Kunstmann Torobayo_______________ $4.180.</h4>
                     <h4 style={{ position: 'absolute', top: '50%', textAlign: 'center', fontSize: '25px', color: 'white', margin: '30px' }} > Cerveza Cristal (Lata) __________________ $2.980.</h4>
                     <p style={{ position: 'absolute', top: '55%', textAlign: 'center', fontSize: '14px', color: 'white', margin: '30px' }} >Con / Sin Alcohol</p>
                     <h4 style={{ position: 'absolute', top: '60%', textAlign: 'center', fontSize: '25px', color: 'white', margin: '30px' }} > Cerveza Corona ___________________        $3.700</h4>
