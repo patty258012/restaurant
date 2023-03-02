@@ -11,6 +11,7 @@ import Aperitivos from "./components/Aperitivos";
 import Compartir from "./components/Compartir";
 import Parrillas from "./components/Parrilas";
 import Entradas from "./components/Entradas";
+import Acompañamientos from "./components/Acompañamientos";
 
 
 
@@ -27,7 +28,7 @@ function App() {
             <Route path="paracompartir" element={< Compartir />} />
             <Route path="/parrillas" element={<Parrillas />} />
             <Route path="/entradas" element={<Entradas />} />
-
+           <Route path="/acompañamientos" element={<Acompañamientos />} />
 
 
 
