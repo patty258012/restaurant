@@ -7,7 +7,21 @@ import { Link } from "react-router-dom";
 function Acompañamientos (){
     return(
 
+
+
 <>
+
+<NavbarComponet/>
+
+<div>
+
+
+
+
+
+</div>
+
+
 </>
 
     );
