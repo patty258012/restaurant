@@ -8,13 +8,13 @@ function Carta() {
         <>
             <NavbarComponet />
 
-            <hr />
+
             <div>
 
                 <h1 style={{ fontSize: '60px', display: 'flex', justifyContent: 'center', fontFamily: 'cursive', }}>Nuestra Carta</h1>
 
             </div>
-           
+            <hr />
             <div className='' style={{ margin: '10px', display: 'flex', justifyContent: 'center' }}>
                 <img
                     alt=""
@@ -35,9 +35,9 @@ function Carta() {
                 <Link to='/ensaladas' variant="link" style={{ position: 'absolute', top: '110%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Ensaladas</Link>
                 <Link to='/vegetaiano' variant="link" style={{ position: 'absolute', top: '117%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Vegetariano</Link>
                 <Link to='/menukids' variant="link" style={{ position: 'absolute', top: '124%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Menu Kids</Link>
-                <Link to='/vinos' variant="link" style={{ position: 'absolute', top: '133%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Vinos</Link>
+                <Link to='/postres' variant="link" style={{ position: 'absolute', top: '133%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Postres</Link>
+                <Link to='/vinos' variant="link" style={{ position: 'absolute', top: '140%', width: '10%', textAlign: 'center', fontSize: '19px', color: 'white', height: '10%' }}>Vinos</Link>
 
-                
 
 
             </div>

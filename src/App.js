@@ -5,9 +5,12 @@ import Home from './page/Home';
 import Carta from './components/Carta';
 import Informacion from "./components/Informacion";
 import Contacto from "./components/Contacto";
+
+
 import Aperitivos from "./components/Aperitivos";
 import Compartir from "./components/Compartir";
 import Parrillas from "./components/Parrilas";
+import Entradas from "./components/Entradas";
 
 
 
@@ -23,6 +26,9 @@ function App() {
             <Route path="/aperitivo" element={<Aperitivos />} />
             <Route path="paracompartir" element={< Compartir />} />
             <Route path="/parrillas" element={<Parrillas />} />
+            <Route path="/entradas" element={<Entradas />} />
+
+
 
 
          </Routes>
