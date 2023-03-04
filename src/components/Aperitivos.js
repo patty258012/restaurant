@@ -45,7 +45,7 @@ function Aperitivos() {
 
                 <div>
                     <Link to='/carta'>
-                        <Button variant="light" style={{ height: '45px', width: '45px', margin: '50px' }}><CgLogOut /></Button>
+                        <Button variant="light" style={{ height: '45px', width: '45px', margin: '50px', color:'green' }}><CgLogOut /></Button>
                     </Link>
                 </div>
             </div>

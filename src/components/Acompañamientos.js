@@ -18,7 +18,6 @@ function Acompañamientos (){
 
 
 
-
 </div>
 
 
