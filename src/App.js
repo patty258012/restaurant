@@ -28,7 +28,7 @@ function App() {
             <Route path="paracompartir" element={< Compartir />} />
             <Route path="/parrillas" element={<Parrillas />} />
             <Route path="/entradas" element={<Entradas />} />
-           <Route path="/acompañamientos" element={<Acompañamientos />} />
+           <Route path="/acompañamiento" element={<Acompañamientos />} />
 
 
 

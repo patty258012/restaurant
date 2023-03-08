@@ -1,24 +1,27 @@
 import NavbarComponet from './NavbarComponent';
-import { VscArrowLeft } from "react-icons/vsc";
+import { CgLogOut } from "react-icons/cg";
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
 
-function Acompañamientos (){
-    return(
+function Acompañamientos() {
+    return (
 
 
 
-<>
+        <>
 
-<NavbarComponet/>
+            <NavbarComponet />
+            <div>
 
-<div>
+            </div>
 
-
-
-
-</div>
+            <div>
+                <Link to='/carta'>
+                    <Button variant="light" style={{ height: '45px', width: '45px', margin: '50px', color: 'green' }}><CgLogOut /></Button>
+                </Link>
+            </div>
+        
 
 
 </>
